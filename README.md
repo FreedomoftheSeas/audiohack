@@ -45,3 +45,14 @@ $ audiohack if.wav of.wav --action bitcrusher <bitRate> <bitDepth>
 * bitRate: 
 * bitDepth:
 
+#### Delay
+##### Aufruf:
+```
+$ audiohack if.wav of.wav -d [<delaytime> <inputvolume> <outputvolume> <cutofffrequency>]
+```
+
+##### Parameter:
+* [delaytime]: Wert, nach welchem das verzögerte Signal eintrifft. (in ms)
+* [inputvolume]: Wie viel vom Originalsignal verarbeitet werden soll. [0.0 - 1.0]
+* [release]: Wie laut das Delay sein soll. [0.0 - 1.0]
+* [cutofffrequency]: Ob und wie viel Bass im Delay abgeschnitten werden soll. [0 - 2500hz]
