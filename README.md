@@ -56,3 +56,14 @@ $ audiohack if.wav of.wav -d [<delaytime> <inputvolume> <outputvolume> <cutofffr
 * [inputvolume]: Wie viel vom Originalsignal verarbeitet werden soll. [0.0 - 1.0]
 * [release]: Wie laut das Delay sein soll. [0.0 - 1.0]
 * [cutofffrequency]: Ob und wie viel Bass im Delay abgeschnitten werden soll. [0 - 2500hz]
+
+
+#### Reverb
+##### Aufruf:
+
+```
+$ audiohack if.wav of.wav --action reverb ...
+```
+
+##### Parameter:
+tbd
