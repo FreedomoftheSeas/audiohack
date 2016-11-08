@@ -89,3 +89,14 @@ $ audiohack if.wav of.wav -action pitchShift <pitchCent> [<timestretch>]
 ##### Parameter:
 * pitch: Wert, um den die Tonhöhe verändert werden soll in Cent.
 * [timestretch]: Faktor, mit dem die Zeit gestreckt wird, ausgehend von der Länge im Ausgangsmaterial.
+
+
+#### Normalize
+##### Aufruf:
+```
+$ audiohack if.wav of.wav --action normalize <volume>
+```
+
+##### Parameter:
+* volume: Wert, um die Amplitude zu vergrößern oder verkleinen [Decibel]
+
