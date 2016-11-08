@@ -100,3 +100,4 @@ $ audiohack if.wav of.wav --action normalize <volume>
 ##### Parameter:
 * volume: Wert, um die Amplitude zu vergrößern oder verkleinen [Decibel]
 
+
