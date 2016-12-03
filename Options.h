@@ -8,7 +8,8 @@
 #endif
 
 struct Options {
-	string param;
-	string cmdSwitch;
-	string desc;
+	string param;      // Name des Effekts
+	string cmdSwitch;  // Kurzbezeichnung
+	string desc;       // Beschreibung
+	///test///
 }
