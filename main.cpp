@@ -42,7 +42,7 @@ int main(int argc, const char * argv[]) {
 	int    itemsRead;
 	double amplitude = 0.5;
 	
-	while (itemsRead = sf_read_double(inputFile, buffer, 500)) {
+	while ((itemsRead = sf_read_double(inputFile, buffer, 500))) {
 		
 		for (int item = 0; item < itemsRead; item++) {
 			buffer[item] *= amplitude;
